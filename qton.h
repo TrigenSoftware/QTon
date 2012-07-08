@@ -95,6 +95,7 @@ public:
     QString typeOf();
 
     int count();
+    bool isEmpty();
 
     void clear();
 
@@ -103,13 +104,14 @@ public:
     bool autoType;
     int type; //0 - object, 1 - array;
 
+    QString literal_encode(QString string);
+
 private:
     QTon decode(QString json);
     QTon recDecode(QScriptValue value, bool isArray);
     QString encode(QTon hash);
     QString recEncode(QTon hash);
-    QString clear_str(QString json);
-    QString literal_encode(QString string);
+    QString clear_str(QString json);    
 };
 
 Q_DECLARE_METATYPE(QTon);

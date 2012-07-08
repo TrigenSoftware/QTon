@@ -403,6 +403,11 @@ int QTon::count()
     return k.count();
 }
 
+bool QTon::isEmpty()
+{
+    return (k.count() == 0);
+}
+
 void QTon::clear()
 {
     h.clear();
