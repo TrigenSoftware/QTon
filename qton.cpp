@@ -506,7 +506,6 @@ QString QTon::literal_encode(QString string)
     string.replace("\\","\\\\");
     string.replace("/","\\/");
     string.replace("\"","\\\"");
-    string.replace("\?","\\?");
     string.replace("\a","\\a");
     string.replace("\b","\\b");
     string.replace("\f","\\f");
