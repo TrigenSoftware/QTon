@@ -63,7 +63,7 @@ In fact it is QHash<QString,QVariant> but with external list of keys (QStringLis
 
 Functions which presented in QTon are similar functions in QHash.
 
-####Necessary: add "script" in *.pro. e.g.:
+**Necessary:** add "script" in *.pro. e.g.:
      QT += core gui\
             webkit\
             network\
