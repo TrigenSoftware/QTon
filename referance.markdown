@@ -6,7 +6,7 @@ The QTon (Qt Object Notation) is a container/encoder/decoder of JSON.
     bool autoType
 
 ##Public Functions:
->     [QTon()][1]
+>     [QTon()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonautotype "QTon()")
 >     QTon(QString json)
 >     QTon(const QTon &hash, QString forcetype = "none")
 >     QTon(QList< QPair<QString,QVariant> > pairs, QString forcetype = "none")
@@ -69,7 +69,7 @@ Functions which presented in QTon are similar functions in QHash.
 
 If this true, then type(array or object) of QTon will be automatically assigned.
 
->###[1]: # "QTon::QTon()"
+>###QTon::QTon()
 
 Constructs an empty object notation.
 
@@ -91,11 +91,11 @@ Construct an object notation from QHash. Data will stored randomly. If forcetype
 
 >###QTon::QTon(QMap<QString,QVariant> map, QString forcetype = "none")
 
-Construct an object notation from QMap. Data will be stored in ascending order. If forcetype is "array" or "object", this type will be assigned. 
+Construct an object notation from QMap. Data will be stored in ascending order. If forcetype is "array" or "object", this type will be assigned. 
 
 >###QTon::QTon(QStringList keys, QHash<QString,QVariant> hash, QString forcetype = "none")
 
-Construct an object notation from QHash. Data will be stored link in keys(QStringList). If forcetype is "array" or "object", this type will be assigned. 
+Construct an object notation from QHash. Data will be stored link in keys(QStringList). If forcetype is "array" or "object", this type will be assigned. 
 
 >###QTon::QTon(QStringList keys, QMap<QString,QVariant> map, QString forcetype = "none")
 
