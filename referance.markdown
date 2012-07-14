@@ -6,7 +6,7 @@ The QTon (Qt Object Notation) is a container/encoder/decoder of JSON.
     bool autoType
 
 ##Public Functions:
->     QTon()
+>     [QTon()][1]
 >     QTon(QString json)
 >     QTon(const QTon &hash, QString forcetype = "none")
 >     QTon(QList< QPair<QString,QVariant> > pairs, QString forcetype = "none")
@@ -69,7 +69,7 @@ Functions which presented in QTon are similar functions in QHash.
 
 If this true, then type(array or object) of QTon will be automatically assigned.
 
->###QTon::QTon()
+>###[1]: # "QTon::QTon()"
 
 Constructs an empty object notation.
 
