@@ -173,13 +173,13 @@ It is equivalent to push_back(QPair<QString,QVariant> pair).
 
 It is equivalent to ush_back(QList< QPair<QString,QVariant> pairs).
 
->###QVariant QTon::&operator[](const QString &key)
+>###QVariant QTon::&operator&#91;&#93;(const QString &key)
 
 Returns the value associated with the key as a modifiable reference.
 
 If the object notation contains no item with the key, the function inserts a default-constructed value into the object notation with the key, and returns a reference to it. If the object notation contains multiple items with the key, this function returns a reference to the most recently inserted value.
 
->###const QVariant QTon::operator[](const QString &key) const
+>###const QVariant QTon::operator&#91;&#93;(const QString &key) const
 
 This is an overloaded function. Same as value().
 
