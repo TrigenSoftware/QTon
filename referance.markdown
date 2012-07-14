@@ -6,7 +6,7 @@ The QTon (Qt Object Notation) is a container/encoder/decoder of JSON.
 >bool autoType
 
 ##Public Functions:
-> [QTon()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonautotype "QTon()")
+> [QTon()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonautotype "QTon()") <br/>
 > QTon(QString json)
 > QTon(const QTon &hash, QString forcetype = "none")
 > QTon(QList< QPair<QString,QVariant> > pairs, QString forcetype = "none")
