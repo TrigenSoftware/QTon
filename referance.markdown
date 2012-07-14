@@ -32,8 +32,8 @@ The QTon (Qt Object Notation) is a container/encoder/decoder of JSON.
 > void [insert(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtoninsertqstring-key-qvariant-value "") <br/>
 > void [insert(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtoninsertqpair-pair "") <br/>
 > void [insert(QList< QPair< QString, QVariant > > pairs)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtoninsertqlist-qpair-pairs "") <br/>
-> QVariant [&operator [ ] (const QString &key)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
-> const QVariant [operator [ ] (const QString &key) const](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
+> QVariant [&operator<pre>[]</pre>(const QString &key)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
+> const QVariant [operator<pre>[]</pre>(const QString &key) const](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
 > QPair< QString, QVariant > [first()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
 > QPair< QString, QVariant > [last()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
 > bool [move(int from, int to)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
