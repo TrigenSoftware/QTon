@@ -3,58 +3,58 @@
 The QTon (Qt Object Notation) is a container/encoder/decoder of JSON.
 
 ##Public vars:
->bool [autoType](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonautotype "")
+>bool [autoType](https://github.com/TrigenSoftware/QTon#bool-qtonautotype "")
 
 ##Public Functions:
-> [QTon()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
-> [QTon(QString json)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqstring-json "") <br/>
-> [QTon(const QTon &hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonconst-qton-hash-qstring-forcetype--none "") <br/>
-> [QTon(QList< QPair< QString, QVariant > > pairs, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqlist-qpair-qstring-qvariant---pairs-qstring-forcetype--none "") <br/>
-> [QTon(QHash< QString, QVariant > hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqhash-qstring-qvariant--hash-qstring-forcetype--none "") <br/>
-> [QTon(QMap< QString, QVariant > map, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqmap-qstring-qvariant--map-qstring-forcetype--none "") <br/>
-> [QTon(QStringList keys, QHash< QString, QVariant > hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqstringlist-keys-qhash-qstring-qvariant--hash-qstring-forcetype--none "") <br/>
-> [QTon(QStringList keys, QMap< QString, QVariant > map, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqstringlist-keys-qmap-qstring-qvariant--map-qstring-forcetype--none "") <br/>
-> QStringList [keys()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qstringlist-qtonkeys "") <br/>
-> QList< QVariant > [values()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qlist-qvariant--qtonvalues "") <br/>
-> QPair< QString, QVariant > [pair(int index)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qpair-qstring-qvariant--qtonpairint-index "") <br/>
-> QString [key(QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qstring-qtonkeyqvariant-value "") <br/>
-> QVariant [value(QString key)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qvariant-qtonvalueqstring-key "") <br/>
-> QString [toString()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qstring-qtontostring "") <br/>
-> QMap< QString, QVariant > [toMap()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qmap-qstring-qvariant--qtontomap "") <br/>
-> QHash< QString, QVariant > [toHash()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qhash-qstring-qvariant--qtontohash "") <br/>
-> QList< QPair< QString, QVariant > > [toPairs()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qlist-qpair-qstring-qvariant---qtontopairs "") <br/>
-> void [push_front(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_frontqstring-key-qvariant-value "") <br/>
-> void [push_front(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_frontqpair-qstring-qvariant--pair "") <br/>
-> void [push_front(QList< QPair< QString, QVariant > > pairs, bool reverse = false)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_frontqlist-qpair-qstring-qvariant---pairs-bool-reverse--false "") <br/>
-> void [push_back(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_backqstring-key-qvariant-value "") <br/>
-> void [push_back(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_backqpair-qstring-qvariant--pair "") <br/>
-> void [push_back(QList< QPair< QString, QVariant > > pairs, bool reverse = false)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_backqlist-qpair-qstring-qvariant---pairs-bool-reverse--false "") <br/>
-> void [insert(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtoninsertqstring-key-qvariant-value "") <br/>
-> void [insert(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtoninsertqpair-qstring-qvariant--pair "") <br/>
-> void [insert(QList< QPair< QString, QVariant > > pairs)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtoninsertqlist-qpair-qstring-qvariant--pairs "") <br/>
-> QVariant [&operator&#91;&#93;(const QString &key)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qvariant-qtonoperatorconst-qstring-key "") <br/>
-> const QVariant [operator&#91;&#93;(const QString &key) const](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#const-qvariant-qtonoperatorconst-qstring-key-const "") <br/>
-> QPair< QString, QVariant > [first()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qpair-qstring-qvariant--qtonfirst "") <br/>
-> QPair< QString, QVariant > [last()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qpair-qstring-qvariant--qtonlast "") <br/>
-> bool [move(int from, int to)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonmoveint-from-int-to "") <br/>
-> bool [remove(int at)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonremoveint-at "") <br/>
-> bool [remove(QString key)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonremoveqstring-key "") <br/>
-> bool [remove(QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonremoveqvariant-value "") <br/>
-> bool [removeFirst()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonremovefirst "") <br/>
-> bool [removeLast()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonremovelast "") <br/>
-> void [reverse()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonreverse "") <br/>
-> bool [contains(QString key)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtoncontainsqstring-key "") <br/>
-> bool [contains(QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtoncontainsqvariant-value "") <br/>
-> void [seektype()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonseektype "") <br/>
-> bool [isObject()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonisobject "") <br/>
-> bool [isArray()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonisarray "") <br/>
-> bool [setType(QString t)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonsettypeqstring-t "") <br/>
-> bool [setType(int t)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonsettypeint-t "") <br/>
-> QString [typeOf()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qstring-qtontypeof "") <br/>
-> int [count()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#int-qtoncount "") <br/>
-> bool [isEmpty()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#bool-qtonisempty "") <br/>
-> void [clear()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonclear "") <br/>
-> QString [literal_encode(QString string)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qstring-qtonliteral_encodeqstring-string "") <br/>
+> [QTon()](https://github.com/TrigenSoftware/QTon#qtonqton "") <br/>
+> [QTon(QString json)](https://github.com/TrigenSoftware/QTon#qtonqtonqstring-json "") <br/>
+> [QTon(const QTon &hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon#qtonqtonconst-qton-hash-qstring-forcetype--none "") <br/>
+> [QTon(QList< QPair< QString, QVariant > > pairs, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon#qtonqtonqlist-qpair-qstring-qvariant---pairs-qstring-forcetype--none "") <br/>
+> [QTon(QHash< QString, QVariant > hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon#qtonqtonqhash-qstring-qvariant--hash-qstring-forcetype--none "") <br/>
+> [QTon(QMap< QString, QVariant > map, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon#qtonqtonqmap-qstring-qvariant--map-qstring-forcetype--none "") <br/>
+> [QTon(QStringList keys, QHash< QString, QVariant > hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon#qtonqtonqstringlist-keys-qhash-qstring-qvariant--hash-qstring-forcetype--none "") <br/>
+> [QTon(QStringList keys, QMap< QString, QVariant > map, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon#qtonqtonqstringlist-keys-qmap-qstring-qvariant--map-qstring-forcetype--none "") <br/>
+> QStringList [keys()](https://github.com/TrigenSoftware/QTon#qstringlist-qtonkeys "") <br/>
+> QList< QVariant > [values()](https://github.com/TrigenSoftware/QTon#qlist-qvariant--qtonvalues "") <br/>
+> QPair< QString, QVariant > [pair(int index)](https://github.com/TrigenSoftware/QTon#qpair-qstring-qvariant--qtonpairint-index "") <br/>
+> QString [key(QVariant value)](https://github.com/TrigenSoftware/QTon#qstring-qtonkeyqvariant-value "") <br/>
+> QVariant [value(QString key)](https://github.com/TrigenSoftware/QTon#qvariant-qtonvalueqstring-key "") <br/>
+> QString [toString()](https://github.com/TrigenSoftware/QTon#qstring-qtontostring "") <br/>
+> QMap< QString, QVariant > [toMap()](https://github.com/TrigenSoftware/QTon#qmap-qstring-qvariant--qtontomap "") <br/>
+> QHash< QString, QVariant > [toHash()](https://github.com/TrigenSoftware/QTon#qhash-qstring-qvariant--qtontohash "") <br/>
+> QList< QPair< QString, QVariant > > [toPairs()](https://github.com/TrigenSoftware/QTon#qlist-qpair-qstring-qvariant---qtontopairs "") <br/>
+> void [push_front(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon#void-qtonpush_frontqstring-key-qvariant-value "") <br/>
+> void [push_front(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon#void-qtonpush_frontqpair-qstring-qvariant--pair "") <br/>
+> void [push_front(QList< QPair< QString, QVariant > > pairs, bool reverse = false)](https://github.com/TrigenSoftware/QTon#void-qtonpush_frontqlist-qpair-qstring-qvariant---pairs-bool-reverse--false "") <br/>
+> void [push_back(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon#void-qtonpush_backqstring-key-qvariant-value "") <br/>
+> void [push_back(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon#void-qtonpush_backqpair-qstring-qvariant--pair "") <br/>
+> void [push_back(QList< QPair< QString, QVariant > > pairs, bool reverse = false)](https://github.com/TrigenSoftware/QTon#void-qtonpush_backqlist-qpair-qstring-qvariant---pairs-bool-reverse--false "") <br/>
+> void [insert(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon#void-qtoninsertqstring-key-qvariant-value "") <br/>
+> void [insert(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon#void-qtoninsertqpair-qstring-qvariant--pair "") <br/>
+> void [insert(QList< QPair< QString, QVariant > > pairs)](https://github.com/TrigenSoftware/QTon#void-qtoninsertqlist-qpair-qstring-qvariant--pairs "") <br/>
+> QVariant [&operator&#91;&#93;(const QString &key)](https://github.com/TrigenSoftware/QTon#qvariant-qtonoperatorconst-qstring-key "") <br/>
+> const QVariant [operator&#91;&#93;(const QString &key) const](https://github.com/TrigenSoftware/QTon#const-qvariant-qtonoperatorconst-qstring-key-const "") <br/>
+> QPair< QString, QVariant > [first()](https://github.com/TrigenSoftware/QTon#qpair-qstring-qvariant--qtonfirst "") <br/>
+> QPair< QString, QVariant > [last()](https://github.com/TrigenSoftware/QTon#qpair-qstring-qvariant--qtonlast "") <br/>
+> bool [move(int from, int to)](https://github.com/TrigenSoftware/QTon#bool-qtonmoveint-from-int-to "") <br/>
+> bool [remove(int at)](https://github.com/TrigenSoftware/QTon#bool-qtonremoveint-at "") <br/>
+> bool [remove(QString key)](https://github.com/TrigenSoftware/QTon#bool-qtonremoveqstring-key "") <br/>
+> bool [remove(QVariant value)](https://github.com/TrigenSoftware/QTon#bool-qtonremoveqvariant-value "") <br/>
+> bool [removeFirst()](https://github.com/TrigenSoftware/QTon#bool-qtonremovefirst "") <br/>
+> bool [removeLast()](https://github.com/TrigenSoftware/QTon#bool-qtonremovelast "") <br/>
+> void [reverse()](https://github.com/TrigenSoftware/QTon#void-qtonreverse "") <br/>
+> bool [contains(QString key)](https://github.com/TrigenSoftware/QTon#bool-qtoncontainsqstring-key "") <br/>
+> bool [contains(QVariant value)](https://github.com/TrigenSoftware/QTon#bool-qtoncontainsqvariant-value "") <br/>
+> void [seektype()](https://github.com/TrigenSoftware/QTon#void-qtonseektype "") <br/>
+> bool [isObject()](https://github.com/TrigenSoftware/QTon#bool-qtonisobject "") <br/>
+> bool [isArray()](https://github.com/TrigenSoftware/QTon#bool-qtonisarray "") <br/>
+> bool [setType(QString t)](https://github.com/TrigenSoftware/QTon#bool-qtonsettypeqstring-t "") <br/>
+> bool [setType(int t)](https://github.com/TrigenSoftware/QTon#bool-qtonsettypeint-t "") <br/>
+> QString [typeOf()](https://github.com/TrigenSoftware/QTon#qstring-qtontypeof "") <br/>
+> int [count()](https://github.com/TrigenSoftware/QTon#int-qtoncount "") <br/>
+> bool [isEmpty()](https://github.com/TrigenSoftware/QTon#bool-qtonisempty "") <br/>
+> void [clear()](https://github.com/TrigenSoftware/QTon#void-qtonclear "") <br/>
+> QString [literal_encode(QString string)](https://github.com/TrigenSoftware/QTon#qstring-qtonliteral_encodeqstring-string "") <br/>
 
 ##Detailed Description
 The QTon is a container/encoder/decoder of JSON.
