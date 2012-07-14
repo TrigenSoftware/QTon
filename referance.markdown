@@ -9,11 +9,11 @@ The QTon (Qt Object Notation) is a container/encoder/decoder of JSON.
 > [QTon()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
 > [QTon(QString json)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqstring-json "") <br/>
 > [QTon(const QTon &hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonconst-qton-hash-qstring-forcetype--none "") <br/>
-> [QTon(QList< QPair<QString,QVariant> > pairs, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqlist-qpair--pairs-qstring-forcetype--none "") <br/>
-> [QTon(QHash<QString,QVariant> hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqhash-hash-qstring-forcetype--none "") <br/>
-> [QTon(QMap<QString,QVariant> map, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqmap-map-qstring-forcetype--none "") <br/>
-> [QTon(QStringList keys, QHash<QString,QVariant> hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqstringlist-keys-qhash-hash-qstring-forcetype--none "") <br/>
-> [QTon(QStringList keys, QMap<QString,QVariant> map, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqstringlist-keys-qmap-map-qstring-forcetype--none "") <br/>
+> [QTon(QList< QPair< QString, QVariant > > pairs, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqlist-qpair--pairs-qstring-forcetype--none "") <br/>
+> [QTon(QHash< QString, QVariant > hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqhash-hash-qstring-forcetype--none "") <br/>
+> [QTon(QMap< QString, QVariant > map, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqmap-map-qstring-forcetype--none "") <br/>
+> [QTon(QStringList keys, QHash< QString, QVariant > hash, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqstringlist-keys-qhash-hash-qstring-forcetype--none "") <br/>
+> [QTon(QStringList keys, QMap< QString, QVariant > map, QString forcetype = "none")](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqtonqstringlist-keys-qmap-map-qstring-forcetype--none "") <br/>
 > QStringList [keys()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qstringlist-qtonkeys "") <br/>
 > QList< QVariant > [values()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qlist-qtonvalues "") <br/>
 > QPair< QString, QVariant > [pair(int index)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qpair-qtonpairint-index "") <br/>
@@ -25,15 +25,15 @@ The QTon (Qt Object Notation) is a container/encoder/decoder of JSON.
 > QList< QPair< QString, QVariant > > [toPairs()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qlist-qpair--qtontopairs "") <br/>
 > void [push_front(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_frontqstring-key-qvariant-value "") <br/>
 > void [push_front(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_frontqpair-pair "") <br/>
-> void [push_front(QList< QPair< QString, QVariant > pairs, bool reverse = false)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_frontqlist-qpair-pairs-bool-reverse--false "") <br/>
+> void [push_front(QList< QPair< QString, QVariant > > pairs, bool reverse = false)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_frontqlist-qpair-pairs-bool-reverse--false "") <br/>
 > void [push_back(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_backqstring-key-qvariant-value "") <br/>
 > void [push_back(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_backqpair-pair "") <br/>
 > void [push_back(QList< QPair< QString, QVariant > > pairs, bool reverse = false)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtonpush_backqlist-qpair-pairs-bool-reverse--false "") <br/>
 > void [insert(QString key, QVariant value)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtoninsertqstring-key-qvariant-value "") <br/>
 > void [insert(QPair< QString, QVariant > pair)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtoninsertqpair-pair "") <br/>
 > void [insert(QList< QPair< QString, QVariant > > pairs)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#void-qtoninsertqlist-qpair-pairs "") <br/>
-> QVariant [&operator&#91;&#93;(const QString &key)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
-> const QVariant [operator&#91;&#93;(const QString &key) const](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
+> QVariant [&operator&#91;&#93;(const QString &key)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qvariant-qtonoperatorconst-qstring-key "") <br/>
+> const QVariant [operator&#91;&#93;(const QString &key) const](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#const-qvariant-qtonoperatorconst-qstring-key-const "") <br/>
 > QPair< QString, QVariant > [first()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
 > QPair< QString, QVariant > [last()](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
 > bool [move(int from, int to)](https://github.com/TrigenSoftware/QTon/blob/master/referance.markdown#qtonqton "") <br/>
@@ -81,23 +81,23 @@ Construct an object notation from JSON string.
 
 Construct an QTon from another QTon object. If forcetype is "array" or "object", this type will be assigned. 
 
->###QTon::QTon(QList< QPair<QString,QVariant> > pairs, QString forcetype = "none")
+>###QTon::QTon(QList< QPair< QString, QVariant > > pairs, QString forcetype = "none")
 
 Construct an object notation from QList of QPairs. If forcetype is "array" or "object", this type will be assigned. 
 
->###QTon::QTon(QHash<QString,QVariant> hash, QString forcetype = "none")
+>###QTon::QTon(QHash< QString, QVariant > hash, QString forcetype = "none")
 
 Construct an object notation from QHash. Data will stored randomly. If forcetype is "array" or "object", this type will be assigned. 
 
->###QTon::QTon(QMap<QString,QVariant> map, QString forcetype = "none")
+>###QTon::QTon(QMap< QString, QVariant > map, QString forcetype = "none")
 
 Construct an object notation from QMap. Data will be stored in ascending order. If forcetype is "array" or "object", this type will be assigned. 
 
->###QTon::QTon(QStringList keys, QHash<QString,QVariant> hash, QString forcetype = "none")
+>###QTon::QTon(QStringList keys, QHash< QString, QVariant > hash, QString forcetype = "none")
 
 Construct an object notation from QHash. Data will be stored link in keys(QStringList). If forcetype is "array" or "object", this type will be assigned. 
 
->###QTon::QTon(QStringList keys, QMap<QString,QVariant> map, QString forcetype = "none")
+>###QTon::QTon(QStringList keys, QMap< QString, QVariant > map, QString forcetype = "none")
 
 Construct an object notation from QMap. Data will be stored link in keys(QStringList). If forcetype is "array" or "object", this type will be assigned. 
 
@@ -105,11 +105,11 @@ Construct an object notation from QMap. Data will be stored link in keys(QString
 
 Returns a list containing all the keys in the object notation.
 
->###QList<QVariant> QTon::values()
+>###QList< QVariant > QTon::values()
 
 Returns a list containing all the values in the object notation.
 
->###QPair<QString,QVariant> QTon::pair(int index)
+>###QPair< QString, QVariant > QTon::pair(int index)
 
 Returns a key-value pair at index(int).
 
@@ -125,15 +125,15 @@ Returns the value associated with the key.
 
 Returns the JSON string.
 
->###QMap<QString,QVariant> QTon::toMap()
+>###QMap< QString, QVariant > QTon::toMap()
 
 Returns the map. Data will be stored in ascending order. 
 
->###QHash<QString,QVariant> QTon::toHash()
+>###QHash< QString, QVariant > QTon::toHash()
 
 Returns the hash. Data will stored randomly.
 
->###QList< QPair<QString,QVariant> > QTon::toPairs()
+>###QList< QPair< QString, QVariant > > QTon::toPairs()
 
 Returns the list of pairs.
 
@@ -141,11 +141,11 @@ Returns the list of pairs.
 
 Inserts key-value at the beginning of the object notation.
 
->###void QTon::push_front(QPair<QString,QVariant> pair)
+>###void QTon::push_front(QPair< QString, QVariant > pair)
 
 Inserts key-value pair at the beginning of the object notation.
 
->###void QTon::push_front(QList< QPair<QString,QVariant> pairs, bool reverse = false)
+>###void QTon::push_front(QList< QPair< QString, QVariant > > pairs, bool reverse = false)
 
 Inserts key-value pairs at the beginning of the object notation. If reverse is true, list will be pushed reversed.
 
@@ -153,11 +153,11 @@ Inserts key-value pairs at the beginning of the object notation. If reverse is t
 
 Inserts key-value at the end of the object notation.
 
->###void QTon::push_back(QPair<QString,QVariant> pair)
+>###void QTon::push_back(QPair< QString, QVariant > pair)
 
 Inserts key-value pair at the end of the object notation.
 
->###void QTon::push_back(QList< QPair<QString,QVariant> pairs, bool reverse = false)
+>###void QTon::push_back(QList< QPair< QString, QVariant > > pairs, bool reverse = false)
 
 Inserts key-value pairs at the end of the object notation. If reverse is true, list will be pushed reversed.
 
@@ -165,13 +165,13 @@ Inserts key-value pairs at the end of the object notation. If reverse is true, l
 
 It is equivalent to push_back(QString key, QVariant value).
 
->###void QTon::insert(QPair<QString,QVariant> pair)
+>###void QTon::insert(QPair< QString, QVariant > pair)
 
-It is equivalent to push_back(QPair<QString,QVariant> pair).
+It is equivalent to push_back(QPair< QString, QVariant > pair).
 
->###void QTon::insert(QList< QPair<QString,QVariant> pairs)
+>###void QTon::insert(QList< QPair< QString, QVariant> > pairs)
 
-It is equivalent to ush_back(QList< QPair<QString,QVariant> pairs).
+It is equivalent to push_back(QList< QPair< QString, QVariant > > pairs).
 
 >###QVariant QTon::&operator&#91;&#93;(const QString &key)
 
@@ -183,11 +183,11 @@ If the object notation contains no item with the key, the function inserts a def
 
 This is an overloaded function. Same as value().
 
->###QPair<QString,QVariant> QTon::first()
+>###QPair< QString, QVariant > QTon::first()
 
 Returns the first key-value pair.
 
->###QPair<QString,QVariant> QTon::last()
+>###QPair< QString, QVariant > QTon::last()
 
 Returns the last key-value pair.
 
