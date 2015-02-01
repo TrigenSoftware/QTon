@@ -436,7 +436,7 @@ QTon QTon::decode(QString json)
     json = clear_str(json);
     value = ng.evaluate("(" + json + ")");
 
-    return recDecode(value,(json.at(0) == QChar(*QString("[").toAscii().data())));
+    return recDecode(value,(json.at(0) == QChar(*QString("[").toLatin1().data())));
 }
 
 QTon QTon::recDecode(QScriptValue value, bool isArray)
@@ -495,8 +495,8 @@ QString QTon::clear_str(QString json)
     bool may = true;
 
     for(int i=0;i<json.length();i++){
-      if(json.at(i) == QChar(*QString("\"").toAscii().data())) may = !may;
-      if(json.at(i) != QChar(*QString(" ").toAscii().data()) || !may) ret += json.at(i);
+      if(json.at(i) == QChar(*QString("\"").toLatin1().data())) may = !may;
+      if(json.at(i) != QChar(*QString(" ").toLatin1().data()) || !may) ret += json.at(i);
     }
     return ret;
 }
