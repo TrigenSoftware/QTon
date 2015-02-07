@@ -1,1 +1,5 @@
-LIBS += 
+INCLUDEPATH += \
+    $$PWD
+
+LIBS += \
+    -L../qton -lqton
