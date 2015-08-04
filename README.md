@@ -1,6 +1,12 @@
+[![Qt Pods](http://qt-pods.org/assets/logo.png "Qt Pods")](http://qt-pods.org)
+
 #QTon Class Reference
 
 The QTon (Qt Object Notation) is a container/encoder/decoder of JSON.
+
+#How to install
+You can install QTon simply via qt-pods. See here for more info:
+https://github.com/cybercatalyst/qt-pods
 
 ##Public vars:
 >bool [autoType](https://github.com/TrigenSoftware/QTon#bool-qtonautotype "")
